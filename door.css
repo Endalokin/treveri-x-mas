@@ -79,6 +79,10 @@ h4 {
   );
 }
 
+.openable {
+    transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-25deg);
+}
+
 @media screen and (max-width: 810px) {
   #calendar {
     grid-template-columns: repeat(4, 1fr);

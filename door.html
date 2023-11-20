@@ -11,7 +11,7 @@
 <body>
     <header>
         <h2>🕯️ &#127876 &#127877 &#127873 &#9924 &#11088</h2>
-        <h1>Treviris X-Mas</h1>
+        <h1>Treviri-X-Mas</h1>
         <h2>&#11088 &#9924 &#127873 &#127877 &#127876 🕯️</h2>
     </header>
     <div id="calendar">
@@ -31,7 +31,7 @@
         </a>
         <a href="#">
             <div class="backDoor" id="day1">
-                <div class="door">
+                <div class="door" onmouseenter="(bigImg(this))" onmouseleave="normalImg(this)">
                     <h4>🕯️ 1 </h4>
                 </div>
             </div>
@@ -185,6 +185,19 @@
 
     </div>
 
+    <script>
+        function bigImg(x) {
+            x.classList.toggle("openable")
+            /* x.style.transform = "perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-25deg)" */
+            console.log(x)
+        }
+
+        function normalImg(x) {
+            x.classList.toggle("openable")
+/*             x.style.transform = "perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(0deg)" */
+        }
+
+    </script>
     <script src="./days.js"></script>
     <script src="./door.js"></script>
 </body>

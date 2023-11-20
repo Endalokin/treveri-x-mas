@@ -72,22 +72,22 @@ let days = [
   {
     id: "day11",
     day: 11,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2021/09/DHM22_1.jpg",
+    link: "https://nwws2022.treviris.de/activities/hochschulrudern/",
     icon: "🕯️",
   },
 
   {
     id: "day12",
     day: 12,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/11/Euromasters2023-1-600x450.jpg",
+    link: "https://www.instagram.com/rv_treviris/",
     icon: "🕯️",
   },  {
     id: "day13",
     day: 13,
     img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    link: "https://www.treviris.de/regatta/",
     icon: "🕯️",
   },  {
     id: "day14",
@@ -104,8 +104,8 @@ let days = [
   },  {
     id: "day16",
     day: 16,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/05/IMG_0203-600x338.jpeg",
+    link: "https://nwws2022.treviris.de/activities/breitensport/",
     icon: "🕯️",
   },  {
     id: "day17",
@@ -122,8 +122,8 @@ let days = [
   },  {
     id: "day19",
     day: 19,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/11/2023_U23-3-600x390.jpeg",
+    link: "https://nwws2022.treviris.de/activities/leistungssport/",
     icon: "🕯️",
   },  {
     id: "day20",

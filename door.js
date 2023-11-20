@@ -14,7 +14,12 @@ function toggleDoor() {
   if (thisDay > today.getDate()) {
     alert("Du musst dich noch ein wenig gedulden!");
   } else {
+    this.setAttribute("onmouseenter", "");
+    this.setAttribute("onmouseleave", "");
+    this.classList.toggle("openable");
     this.classList.toggle("doorOpen");
+
+    console.log(this);
     let imgUrl = currentDay.img;
     let linkUrl = currentDay.link;
     if (this.classList.value.match("doorOpen")) {
