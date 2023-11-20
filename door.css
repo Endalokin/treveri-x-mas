@@ -1,0 +1,96 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 5vh;
+  background-color: green;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#calendar {
+  background-image: url("./assets/Christmas-light-display-scaled_green.jpg");
+  background-size: cover;
+  padding: 60px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 10%;
+  column-gap: 5%;
+  height: calc(95vh - 120px);
+  width: calc(100vw - 120px);
+}
+
+#calendar a {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h4 {
+  padding-right: 20px;
+}
+
+.backDoor {
+  background-color: #33333300;
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  height: 100%;
+  border: 2px dashed green;
+  border-left: 2px solid green;
+}
+
+.door {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 17, 2, 0.3) 0%,
+    rgba(0, 128, 0, 1) 85%
+  );
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  display: flex;
+  justify-content: end;
+  align-items: end;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.doorOpen {
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px)
+    rotateY(-105deg);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 17, 2, 0.8) 0%,
+    rgba(0, 128, 0, 1) 85%
+  );
+}
+
+@media screen and (max-width: 810px) {
+  #calendar {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5%;
+    padding: 40px;
+    height: calc(95vh - 80px);
+    width: calc(100vw - 80px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #calendar {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
