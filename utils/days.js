@@ -58,8 +58,8 @@ let days = [
   {
     id: "day9",
     day: 9,
-    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/02/logo-eszr-800x557.png",
-    link: "https://nwws2022.treviris.de/activities/schulruderzentrum/",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/11/treviris_weihnachten_640x500.png",
+    link: "https://nwws2022.treviris.de/event/rvt-weihnachtsfeier/",
     icon: "🕯️",
   },
   {
@@ -92,8 +92,8 @@ let days = [
   },  {
     id: "day14",
     day: 14,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/02/logo-eszr-800x557.png",
+    link: "https://nwws2022.treviris.de/activities/schulruderzentrum/",
     icon: "🕯️",
   },  {
     id: "day15",
