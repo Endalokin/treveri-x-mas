@@ -24,7 +24,8 @@ function sneakDoor() {
   this.classList.toggle("openable");
 }
 
-function toggleDoor() {
+function toggleDoor(e) {
+  e.preventDefault();
   var parent = this.parentElement;
   let currentDay = days.find((d) => {
     return d.id == parent.id;
