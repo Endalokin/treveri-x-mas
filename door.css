@@ -33,13 +33,15 @@ h1 {
 
 #calendar a {
   color: white;
-  font-size: 28px;
+  font-size: 24px;
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
 }
 
 h4 {
   padding-right: 20px;
+  margin: 0px;
+  padding-bottom: 20px;
 }
 
 .backDoor {
@@ -60,16 +62,13 @@ h4 {
     rgba(0, 128, 0, 1) 85%
   );
   transform-origin: left;
-  /*Speed of the Door animation*/
   display: flex;
   justify-content: end;
   align-items: end;
-
   transition: all 0.2s ease-in-out;
 }
 
 .doorOpen {
-  /*prespectiv creates the door open effect*/
   transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px)
     rotateY(-105deg);
   background: linear-gradient(
@@ -81,14 +80,18 @@ h4 {
 
 .openable {
     transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-25deg);
+    border-radius: 0 3px 3px 0;
 }
 
 @media screen and (max-width: 810px) {
+  header {
+    height:10vh;
+  }
   #calendar {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 5%;
     padding: 40px;
-    height: calc(95vh - 80px);
+    height: 150vh;
     width: calc(100vw - 80px);
   }
 }
