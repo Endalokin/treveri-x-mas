@@ -116,8 +116,8 @@ let days = [
   },  {
     id: "day18",
     day: 18,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/11/IMG-20231014-WA0008.jpg",
+    link: "https://nwws2022.treviris.de/remmidemmi-beim-32-kettwiger-herbst-cup/",
     icon: "🕯️",
   },  {
     id: "day19",
@@ -141,8 +141,8 @@ let days = [
   {
     id: "day22",
     day: 22,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/11/2023_Trainerfortbildung3.jpg",
+    link: "https://nwws2022.treviris.de/athletenansprache-aus-psychologischer-perspektive/",
     icon: "🕯️",
   },
   {
