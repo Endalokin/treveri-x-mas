@@ -9,7 +9,7 @@ for (let element of elements) {
 
 function checkDay(currentDay, sendAlert = false) {
   const thisDay = currentDay.day;
-  if (thisDay > today.getDate()) {
+  if (thisDay > today.getDate() || today.getMonth() != 11) {
     sendAlert && alert("Du musst dich noch ein wenig gedulden!");
     return true;
   }

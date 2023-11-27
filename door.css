@@ -15,7 +15,7 @@ header {
 }
 
 footer {
-  height: 2vh;
+  height: 2.5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@ footer a {
   grid-template-columns: repeat(6, 1fr);
   row-gap: 10%;
   column-gap: 5%;
-  height: calc(93vh - 120px);
+  height: calc(92.5vh - 120px);
   width: calc(100vw - 120px);
 }
 
