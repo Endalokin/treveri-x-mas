@@ -14,10 +14,18 @@ header {
   text-align: center;
 }
 
-h1 {
-  padding-left: 20px;
-  padding-right: 20px;
+footer {
+  height: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+footer a {
+  text-decoration: none;
+  color: green;
+}
+
 
 #calendar {
   background-image: url("./assets/Christmas-light-display-scaled_green.jpg");
@@ -27,7 +35,7 @@ h1 {
   grid-template-columns: repeat(6, 1fr);
   row-gap: 10%;
   column-gap: 5%;
-  height: calc(95vh - 120px);
+  height: calc(93vh - 120px);
   width: calc(100vw - 120px);
 }
 
@@ -36,6 +44,11 @@ h1 {
   font-size: 24px;
   text-decoration: none;
   font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h4 {
