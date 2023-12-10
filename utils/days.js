@@ -86,8 +86,8 @@ let days = [
   },  {
     id: "day13",
     day: 13,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "https://www.treviris.de/regatta/",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/03/d0c7724d-7fee-473d-8cbe-8ee723c1e5e5.jpg",
+    link: "https://nwws2022.treviris.de/wp-content/uploads/2023/12/PackListeFurRudern.pdf",
     icon: "🕯️",
   },  {
     id: "day14",
@@ -148,15 +148,15 @@ let days = [
   {
     id: "day23",
     day: 23,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/05/vereinslogo_schriftstern_1000x1000.png",
+    link: "https://nwws2022.treviris.de/about-us/mitgliedschaft/",
     icon: "🕯️",
   },
   {
     id: "day24",
     day: 24,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://nwws2022.treviris.de/wp-content/uploads/2023/12/u15_trainer.png",
+    link: "https://nwws2022.treviris.de/wp-content/uploads/2023/12/RVTreviris_U15Saison2024.pdf",
     icon: "🕯️",
   },
 ];
