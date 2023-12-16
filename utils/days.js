@@ -111,7 +111,7 @@ let days = [
     id: "day17",
     day: 17,
     img: "https://www.treviris.de/wp-content/uploads/2023/12/treviris_website_bis_2023.png",
-    link: "",
+    link: "https://www.treviris.de/treviris-de-in-neuem-gewand/",
     icon: "🕯️",
   },  {
     id: "day18",
