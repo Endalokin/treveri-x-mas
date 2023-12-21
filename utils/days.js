@@ -134,8 +134,8 @@ let days = [
   },  {
     id: "day21",
     day: 21,
-    img: "https://images.squarespace-cdn.com/content/v1/5589b90de4b0160dbae13acd/1577049356503-ES8QH3KWXMEKP8TCRCZT/20191222+christmas+politically+correct.png",
-    link: "",
+    img: "https://www.treviris.de/wp-content/uploads/2023/12/Suik_23_5_RVT.jpg",
+    link: "https://www.treviris.de/gute-ergebnisse-auf-dem-rosendaaler-kanal/",
     icon: "🕯️",
   },
   {
